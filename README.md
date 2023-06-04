@@ -1,4 +1,4 @@
-# spotify-usage
+# diy-spotify-wrapped
 Deployed project, product of extraction code which is in another repo 👉🏼 https://github.com/ckunakom/spotify-api
 
 Tableau design taking after [Everything You Need To Know About 2022 Wrapped](https://newsroom.spotify.com/2022-11-30/everything-you-need-to-know-about-2022-wrapped/)
