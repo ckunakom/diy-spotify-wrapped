@@ -16,35 +16,74 @@
   <link rel="icon" type="image/png" href="https://ckunakom.github.io/img/logo.png">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/darkly.css">
+  <link rel="stylesheet" href="css/materia.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <nav class="navbar navbar-dark bg-primary">
     <a class="navbar-brand" href="https://ckunakom.github.io/">
-      <img src="https://ckunakom.github.io/img/logo.png" width="40" height="40" alt="ck-logo">
+      <img src="https://ckunakom.github.io/img/logo.png" width="50" height="50" alt="ck-logo">
     </a>
-    <a class="navbar" href="https://github.com/ckunakom/spotify-api"> Github Code </a>
+    <h5><a id="github" href="https://github.com/ckunakom/spotify-api" target="_blank"> Spotify API Code in my Github
+      </a>
+    </h5>
   </nav>
 
   <div class="container">
-    <div class="row pt-3">
-      <h3 class="text-warning">Html Page Work in Progress... 🎧</h3>
-      <div class="col-md-6">
-        <!--  -->
-        <div class='tableauPlaceholder' id='viz1685381306948' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;Spotify-Wrappeddraft_16851244714230&#47;Summary_Story&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Spotify-Wrappeddraft_16851244714230&#47;Summary_Story' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;Spotify-Wrappeddraft_16851244714230&#47;Summary_Story&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1685381306948');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='405px';vizElement.style.height='780px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <div class='tableauPlaceholder' id='viz1685380861547' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Q8&#47;Q8C3TDSPM&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;Q8C3TDSPM' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Q8&#47;Q8C3TDSPM&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1685380861547');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='440px';vizElement.style.height='835px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>  
+    <div class="row pt-3 justify-content-md-center">
+      <h2 class="text-info">DIY Spotify Wrapped 🎧</h2>
+      <div>
+        <h5 class="pt-3">Inspiration ✨</h5>
+        <p>Modeling after selected dashboards from <a
+            href="https://newsroom.spotify.com/2022-11-30/everything-you-need-to-know-about-2022-wrapped/"
+            target="_blank">Spotify
+            Wrapped 2022</a>, I was able to use Tableau to recreate the year-end storyboard that Spotify provides to
+          the user towards
+          the end of the year. The data is extracted via <a href="https://developer.spotify.com/documentation/web-api"
+            target="_blank">Spotify Web API</a> using the code which can be found in my <a
+            href="https://github.com/ckunakom/spotify-api" target="_blank">github</a>. You can try it yourself, too!
+          There are step-by-step instructions and the Tableau template is already there for you to connect the cleaned
+          data file!
+        </p>
+        <p>
+          With the ability to get my own data whenever I want, I can generate the wrapped any time of the year without
+          having to wait for
+          Spoty to create one for me at the end of the year. Moreover, Spotify Web API lets you choose the time range
+          for your data: within the last 4 weeks ('short term'), 6 months ('medium term') or over several years
+          including
+          all new data as it becomes available ('long term'). The code I use for the storyboard is for the data within
+          the last 6 months.
+        </p>
       </div>
-
-      <div class="col-md-6">
-        <!-- .... -->
-        <div class='tableauPlaceholder' id='viz1685380718862' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;7F&#47;7FR8HPMN4&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;7FR8HPMN4' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;7F&#47;7FR8HPMN4&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1685380718862');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='450px';vizElement.style.height='780px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
-        <div class='tableauPlaceholder' id='viz1685380817365' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;KD&#47;KD2X3XFBX&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;KD2X3XFBX' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;KD&#47;KD2X3XFBX&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1685380817365');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='450px';vizElement.style.height='780px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <h5>Spotify User Storyboard</h5>
+      <div class='tableauPlaceholder' id='viz1685841749201' style='position: relative'><noscript><a href='#'><img alt='All Story ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;Spotify-Wrappeddraft_16851244714230&#47;AllStory&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='Spotify-Wrappeddraft_16851244714230&#47;AllStory' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Sp&#47;Spotify-Wrappeddraft_16851244714230&#47;AllStory&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1685841749201');                    var vizElement = divElement.getElementsByTagName('object')[0];                    vizElement.style.width='450px';vizElement.style.height='757px';                    var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+      <div>
+        <h5 class="pt-4">Limitations 😢</h5>
+        <p>
+          There are some limitations to the Tableau Public edition (Free!) in terms of getting all the images related
+          to the data to display with the text data (this is not a limitation for Tableau Server edition). As a
+          workaround, I
+          configured the 'My Top Songs' and 'My Top Artists' dashboards to change the image according to which row of data
+          is clicked on (try it out!).
+        </p>
+        <p>
+          Additionally, Spotify Web API does not include an endpoint where you can get 'minutes listened' on your
+          top songs data. Hence, such information is omitted from the 1st dashbaord.</p>
       </div>
-
+      <div>
+        <h5 class="pt-3">User Storyboard with my Own Twist🌪️ (Coming Soon!)</h5>
+        <p>
+          I am working on my own version of Spotify Wrapped storyboard that is more interactive and utilize more of the
+          data found in the Spotify Web API. Stay tuned (If you got to this page through 'Project' page then you might
+          have already seen a sneak peak)! The content and layout is done, but the design part of adjusting the pixel
+          of this and that to fit on the web html is taking super longggggggggggg. RECALL! I am a data engineer, not a
+          design engineer 👀
+        </p>
+      </div>
 
     </div>
+
   </div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>

@@ -18,3 +18,11 @@ table, .table {
   color: #ebebeb;
   font-size: 14px;
 }
+
+#github {
+  color: #ff9800;
+}
+
+p {
+  font-size: .9rem;
+}
